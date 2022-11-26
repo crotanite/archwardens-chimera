@@ -1,0 +1,19 @@
+{
+  "name": "@archwardens/chimera",
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "typings": "./typings/index.d.ts",
+  "dependencies": {
+    "@heroicons/vue": "^2.0.13",
+    "@inertiajs/inertia": "^0.11.1",
+    "@inertiajs/inertia-vue3": "^0.6.0",
+    "@vueuse/core": "^9.4.0",
+    "emoji-mart-vue-fast": "^12.0.1",
+    "sortablejs": "^1.15.0",
+    "sortablejs-vue3": "^1.2.3",
+    "velocity-animate": "^1.5.2",
+    "vue": "^3.2.42",
+    "vue3-markdown-it": "^1.0.10",
+    "vuedraggable": "^4.1.0"
+  }
+}

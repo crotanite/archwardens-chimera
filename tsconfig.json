@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+    },
+    "include": [
+        "components/**/*",
+        "composables/**/*",
+        "types/**/*",
+        "typings/index.d.ts"
+    ]
+}
