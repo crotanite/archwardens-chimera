@@ -1,6 +1,8 @@
 import { inject, ref } from 'vue'
-import { screenSizes, Screens } from '@archwardens/chimera'
-import { CalculateScreenSize, GetValueForScreen } from '@archwardens/chimera/composables'
+import { screenSizes, Screens } from '../archwardens.config'
+
+export type CalculateScreenSize = () => string
+export type GetValueForScreen = (sizes: unknown, defaultValue?: string) => string
 
 export function useScreen (): { calculateScreenSize: CalculateScreenSize, getValueForScreen: GetValueForScreen } {
     const calculateScreenSize: CalculateScreenSize = (): string => {

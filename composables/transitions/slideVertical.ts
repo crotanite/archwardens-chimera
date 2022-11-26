@@ -1,5 +1,6 @@
 import velocity from 'velocity-animate'
-import { SlideVerticalDoneFunction } from '@archwardens/chimera/composables'
+
+export type SlideVerticalDoneFunction = () => void
 
 /**
  * Slide the element up.

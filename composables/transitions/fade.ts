@@ -1,5 +1,6 @@
 import velocity from 'velocity-animate'
-import { FadeDoneFunction } from '@archwardens/composables/transitions/fade'
+
+export type FadeDoneFunction = () => void
 
 /**
  * Fade an element.
