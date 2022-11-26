@@ -13,18 +13,3 @@ declare module "@archwardens/chimera/composables" {
     export function slideUp (el: HTMLElement, done: SlideVerticalDoneFunction, duration?: number, delay?: number): void;
     export function slideDown (el: HTMLElement, done: SlideVerticalDoneFunction, duration?: number, delay?: number): void;
 }
-
-// declare module "@archwardens/composables/useScreen" {
-//     import { Screens } from '@archwardens/chimera/config'
-
-//     export type CalculateScreenSize = () => string
-//     export type GetValueForScreen = (sizes: Screens<unknown>, defaultValue?: string) => string
-
-//     export default function useScreen (): { calculateScreenSize: CalculateScreenSize, getValueForScreen: GetValueForScreen }
-// }
-
-// declare module "@archwardens/composables/useTheme" {
-//     import { Theme } from '@archwardens/archwardens.config'
-
-//     export default function useTheme(): Theme
-// }
